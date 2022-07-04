@@ -1,6 +1,10 @@
 import React from 'react'
 import Navigation from '../Navigation/Navigation'
 import Footer from "../Footer/Footer";
+import { GrGooglePlus } from "react-icons/gr";
+import { BsPinterest } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
 
 export default function Layout({children}) {
   return (
@@ -12,7 +16,7 @@ export default function Layout({children}) {
             src="img/xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
             alt="type avec lunettes image principale"
           />
-          <div className="bg-bluegeneraleinformation">
+          <div className="bg-bluegeneraleinformation p-8">
             <h3 className="">Generale Information</h3>
             <div className="flex">
               <img src="img/téléchargement (4).webp" alt="icone crayon" />
@@ -34,6 +38,9 @@ export default function Layout({children}) {
               <img src="img/téléchargement (3).webp" alt="icone phone" />
               <p>mytemplatename.com</p>
             </div>
+            <div className="icone-generale-information flex">
+              <GrGooglePlus/><BsPinterest/><FaFacebookF/><BsTwitter/>
+              </div>
           </div>
         </div>
         <div className="">{children}</div>
