@@ -16,7 +16,7 @@ export default function SkillsSection1() {
           accusantium porro obcaecati. Excepturi tempora illum cum enim!
         </p>
       </div>
-      <div className="md:flex space-x-20 p-8 ">
+      <div className="md:flex md:space-x-20 p-8 ">
         <div className="w-full">
           <CardSkills
             pourcentWidth="w-[70%]"
