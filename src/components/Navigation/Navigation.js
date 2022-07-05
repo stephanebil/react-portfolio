@@ -4,10 +4,10 @@ import NavItem from "./NavItem";
 export default function Navigation() {
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
-      <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="/" className="flex items-center">
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-            Smith.CV
+      <div className=" flex flex-wrap justify-between items-center mx-auto">
+        <a href="/about" className="flex items-center">
+          <span className="self-center text-4xl font-black text-bluegeneraleinformation ">
+            Smith<span className="text-violetnav">.</span>CV
           </span>
         </a>
         <button
@@ -44,14 +44,14 @@ export default function Navigation() {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-            <NavItem titleItem="Home" linkItem="/" />
+          <ul className="flex flex-col mt-4 md:flex-row md:space-x-1 md:mt-0 md:text-sm ">
+            {/* <NavItem titleItem="Home" linkItem="/" /> */}
             <NavItem titleItem="About" linkItem="/about" />
             <NavItem titleItem="Skills" linkItem="/skills" />
             <NavItem titleItem="Services" linkItem="/services" />
             <NavItem titleItem="Portfolio" linkItem="/portfolio" />
-            <NavItem titleItem="Portfolio" linkItem="/portfolio" />
             <NavItem titleItem="Testimonials" linkItem="/testimonials" />
+            <NavItem titleItem="Contact" linkItem="/contact" />
           </ul>
         </div>
       </div>

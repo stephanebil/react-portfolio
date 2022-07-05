@@ -6,10 +6,12 @@ module.exports = {
     extend: {
       colors: {
         "bluegeneraleinformation": "#100f3a",
+        "graytitleh2": "#9f9fb0",
+		    
+        "graylighttitlecard": "#f5f0f0",
+        "whiteportfolio": "#ffffff",
+        "violetnav": "#8583e1",
         
-		
-		"violethomecard-educal": "#8007e6",
-        "bluehomecard-educal": "#2b4eff",
         "bluehomecard-educal2": "#2d69f0",
         "bluehomeletter-educal": "#0fa0dd",
         "bluehomelight-educal": "#edeef3",
@@ -19,8 +21,8 @@ module.exports = {
         "orangehomeletter-educal": "#fa7919",
         "greenhomecard-educal": "#30a820",
         "yellow-educal": "#fc1",
-        "red-educal": "#f00",
-        "green-educal": "#0f0",
+        
+        
       },
     },
   },
