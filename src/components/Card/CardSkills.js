@@ -9,11 +9,11 @@ export default function CardSkills({
 }) {
   return (
     <main>
-      <div class="flex justify-between mb-1">
+      <div className="flex justify-between mb-1">
         <div className="mb-1 text-base text-bluegeneraleinformation font-medium ">
           {titleBarProgress}
         </div>
-        <span class="text-sm font-medium text-bluegeneraleinformation ">
+        <span className="text-sm font-medium text-bluegeneraleinformation ">
           {percentvalue}
         </span>
       </div>
