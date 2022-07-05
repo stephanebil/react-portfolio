@@ -13,7 +13,7 @@ export default function CardInformation() {
         alt="type avec lunettes image principale"
       />
       <div className="bg-bluegeneraleinformation p-8 grid justify-center">
-        <h3 className="text-center text-whiteportfolio text-[30px] mb-8">
+        <h3 className="text-center text-whiteportfolio text-[26px] font-[600] mb-8">
           Generale Information
         </h3>
         <CardItem
@@ -38,7 +38,7 @@ export default function CardInformation() {
           titlecarditem="mytemplatename.com"
           src="img/téléchargement (3).webp"
         />
-     
+
         <div className="icone-generale-information flex justify-center space-x-[50px] mt-6 text-graytitleh2">
           <GrGooglePlus />
           <BsPinterest />

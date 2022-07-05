@@ -9,7 +9,7 @@ export default function AboutSection1() {
       <LayoutTitle title2="Développeur full stack" title="Justine Bieber" />
 
       <div className="p-8">
-        <h3 className="text-bluegeneraleinformation text-[30px] mb-10 font-semibold">
+        <h3 className="text-bluegeneraleinformation text-[30px] mb-10 font-[600]">
           Descritption
         </h3>
         <p className="text-graytitleh2">
