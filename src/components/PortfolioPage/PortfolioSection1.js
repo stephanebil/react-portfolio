@@ -22,9 +22,9 @@ export default function PortfolioSection1() {
           titlePortfolio="Projet 1"
         />
         <CardPortfolio
-          srcPortfolio="img/mouche1.jpg"
-          altportfolio="image projet1 mouche"
-          titlePortfolio="Projet 1"
+          srcPortfolio="img/pistoletrose.jpg"
+          altportfolio="image projet2 pistolet rose"
+          titlePortfolio="Projet 2"
         />
       </div>
     </section>
