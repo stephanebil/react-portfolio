@@ -6,7 +6,7 @@ import LayoutTitle from '../layouts/LayoutTitle'
 export default function AboutSection1() {
   return (
     <section>
-      <LayoutTitle title2="Développeur full stack" title="Justine Bieber" />
+      <LayoutTitle title2="Développeur full stack" title="Stéphane Bilella" />
 
       <div className="p-8">
         <h3 className="text-bluegeneraleinformation text-[30px] mb-10 font-[600]">

@@ -9,7 +9,7 @@ export default function CardInformation() {
   return (
     <div className="bloc-general-information  md:w-[640px]">
       <img
-        src="img/xsmith.jpg.pagespeed.ic.-fvXWI23nq.webp"
+        src="img/stephanebilella.jpg"
         alt="type avec lunettes image principale"
       />
       <div className="bg-bluegeneraleinformation p-8 grid justify-center">
@@ -18,20 +18,20 @@ export default function CardInformation() {
         </h3>
         <CardItem
           titlecarditem="Name:"
-          titlecarditem2="Justin Bieber"
+          titlecarditem2="Stéphane Bilella"
           src="img/téléchargement (4).webp"
         />
         <CardItem
           titlecarditem="Location:"
-          titlecarditem2="London UK"
+          titlecarditem2="Oissel (76)"
           src="img/téléchargement (1).webp"
         />
         <CardItem
-          titlecarditem="contactme@templatename.com"
+          titlecarditem="stephanebilella@yahoo.fr"
           src="img/téléchargement (5).webp"
         />
         <CardItem
-          titlecarditem="+76 6524 567862 763"
+          titlecarditem="06 48 34 75 56"
           src="img/téléchargement (2).webp"
         />
         <CardItem
