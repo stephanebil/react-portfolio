@@ -39,11 +39,32 @@ export default function CardInformation() {
           src="img/téléchargement (3).webp"
         />
 
-        <div className="icone-generale-information flex justify-center space-x-[50px] mt-6 text-graytitleh2">
-          <GrGooglePlus />
-          <BsPinterest />
-          <FaFacebookF />
-          <BsTwitter />
+        <div className="icone-generale-information flex justify-center space-x-[50px] mt-6 text-graytitleh2 ">
+          <a
+            className="hover:text-whiteportfolio"
+            href="https://www.google.fr/"
+          >
+            <GrGooglePlus />
+          </a>
+          <a
+            className="hover:text-whiteportfolio"
+            href="https://www.pinterest.fr/"
+          >
+            <BsPinterest />
+          </a>
+          <a
+            className="hover:text-whiteportfolio"
+            href="https://fr-fr.facebook.com/"
+          >
+            <FaFacebookF />
+          </a>
+          <a
+            className="hover:text-whiteportfolio"
+            href="https://twitter.com/?lang=fr"
+            target="_blank"
+          >
+            <BsTwitter />
+          </a>
         </div>
       </div>
     </div>

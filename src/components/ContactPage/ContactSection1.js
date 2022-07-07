@@ -7,7 +7,7 @@ export default function ContactSection1() {
     <section>
       <LayoutTitle title2="" title="Contactez moi" />
 
-      <div className="text-graytitleh2 p-8 md:w-[900px]">
+      <div className="text-graytitleh2 p-8">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ea
           mollitia ut modi minus. Repellendus iste reiciendis earum autem, illo
