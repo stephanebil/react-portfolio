@@ -16,8 +16,8 @@ export default function SkillsSection1() {
           accusantium porro obcaecati. Excepturi tempora illum cum enim!
         </p>
       </div>
-      <div className="md:flex md:space-x-20 p-8 ">
-        <div className="w-full">
+      <div className=" md:flex space-y-10 md:space-y-0 md:space-x-20 p-8 ">
+        <div className="space-y-10 w-full">
           <CardSkills
             pourcentWidth="w-[70%]"
             titleBarProgress="HTML5"
@@ -31,7 +31,7 @@ export default function SkillsSection1() {
             colorBar="bg-gradient-to-r from-green-500 to-yellow-200"
           />
         </div>
-        <div className="w-full">
+        <div className="space-y-10 w-full">
           <CardSkills
             pourcentWidth="w-[60%]"
             titleBarProgress="CSS"
@@ -45,7 +45,7 @@ export default function SkillsSection1() {
             colorBar="bg-gradient-to-r from-green-500 to-blue-500"
           />
         </div>
-        <div className="w-full">
+        <div className="space-y-10 w-full">
           <CardSkills
             pourcentWidth="w-[75%]"
             titleBarProgress="JavaScript"
