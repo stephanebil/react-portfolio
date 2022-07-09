@@ -7,7 +7,7 @@ import CardItem from "./CardItem";
 
 export default function CardInformation() {
   return (
-    <div className="bloc-general-information  md:w-[640px]">
+    <div className="bloc-general-information  md:min-w-[400px] md:max-w-[400px]">
       <img src="img/stephanebilella.jpg" alt="type avec lunettes" />
       <div className="bg-bluegeneraleinformation p-8 grid justify-center">
         <h3 className="text-center text-whiteportfolio text-[26px] font-[600] mb-8">
