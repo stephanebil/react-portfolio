@@ -8,10 +8,7 @@ import CardItem from "./CardItem";
 export default function CardInformation() {
   return (
     <div className="bloc-general-information  md:w-[640px]">
-      <img
-        src="img/stephanebilella.jpg"
-        alt="type avec lunettes image principale"
-      />
+      <img src="img/stephanebilella.jpg" alt="type avec lunettes" />
       <div className="bg-bluegeneraleinformation p-8 grid justify-center">
         <h3 className="text-center text-whiteportfolio text-[26px] font-[600] mb-8">
           Generale Information
@@ -43,18 +40,24 @@ export default function CardInformation() {
           <a
             className="hover:text-whiteportfolio"
             href="https://www.google.fr/"
+            target="_blank"
+            rel="noreferrer"
           >
             <GrGooglePlus />
           </a>
           <a
             className="hover:text-whiteportfolio"
             href="https://www.pinterest.fr/"
+            target="_blank"
+            rel="noreferrer"
           >
             <BsPinterest />
           </a>
           <a
             className="hover:text-whiteportfolio"
             href="https://fr-fr.facebook.com/"
+            target="_blank"
+            rel="noreferrer"
           >
             <FaFacebookF />
           </a>
@@ -62,6 +65,7 @@ export default function CardInformation() {
             className="hover:text-whiteportfolio"
             href="https://twitter.com/?lang=fr"
             target="_blank"
+            rel="noreferrer"
           >
             <BsTwitter />
           </a>

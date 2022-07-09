@@ -16,7 +16,7 @@ export default function CardTestimonials({
         <img
           className="mt-8 rounded-full"
           src={srcTestimonials}
-          alt="photo portrait du témoin"
+          alt="portrait du témoin"
         />
         <p className="mt-8 ">
           <span className="text-violetnav">{nameTestimonials}</span> Customer
