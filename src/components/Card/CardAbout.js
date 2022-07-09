@@ -11,10 +11,12 @@ export default function CardAbout({ percentage, titlecardabout }) {
           text={`${percentage}%`}
           styles={{
             // Customize the root svg element
-            root: {  },
+            root: {
+              
+              margin: "1px",
+            },
             // Customize the path, i.e. the "completed progress"
             path: {
-              
               
               // épaisseur du cercle intérieur
               strokeWidth: "1px",
@@ -30,8 +32,9 @@ export default function CardAbout({ percentage, titlecardabout }) {
             },
             // Customize the circle behind the path, i.e. the "total progress"
             trail: {
-              marginBlock: "500px",
-              strokeWidth: "15%",
+              
+              // épaisseur du cercle extérieur
+              strokeWidth: "25px",
               // Trail color
               stroke: "#d6d6d6",
               // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
