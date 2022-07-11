@@ -10,6 +10,8 @@ export default function Navigation() {
             Smith<span className="text-violetnav">.</span>CV
           </span>
         </a>
+        
+        
         <button
           data-collapse-toggle="mobile-menu"
           type="button"
