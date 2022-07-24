@@ -6,7 +6,7 @@ export default function NavItems({ titleItem, linkItem }) {
     <li className="bg-bluegeneraleinformation text-white hover:bg-violetnav px-8 py-3">
       <Link
         to={linkItem}
-        className="  bg-blue-700 rounded md:bg-transparent md:p-0 "
+        className="  rounded md:bg-transparent md:p-0 "
       >
         {titleItem}
       </Link>

@@ -1,9 +1,13 @@
 // import React from 'react';
+
 import NavItem from "./NavItem";
 
 export default function Navigation() {
+  
+  
   return (
-    <nav className="navbar flex justify-between px-2 sm:px-4 py-2.5 ">
+    
+    <nav className="navbar md:flex justify-between md:items-center px-4 py-2.5 ">
       <div className=" ">
         <a href="/about" className=" ">
           <span className=" text-4xl font-black text-bluegeneraleinformation ">
@@ -11,8 +15,15 @@ export default function Navigation() {
           </span>
         </a>
       </div>
-      <div className="hidden w-full md:block md:w-auto">
-        <ul className="flex flex-col mt-4 md:flex-row md:space-x-0.5 md:mt-0 md:text-sm ">
+    
+      <div className="navbar__burger md:hidden absolute z-30 -mt-[40px] right-8 ">
+        
+          <span className="burger-bar text-4xl font-black  text-bluegeneraleinformation hover:text-violetnav ">menu</span>
+        
+      </div>
+
+      <div className=" ">
+        <ul className=" absolute md:static md:flex md:items-center w-full  bg-white md:w-full ">
           {/* <NavItem titleItem="Home" linkItem="/" /> */}
           <NavItem titleItem="About" linkItem="/about" />
           <NavItem titleItem="Skills" linkItem="/skills" />
@@ -21,11 +32,6 @@ export default function Navigation() {
           <NavItem titleItem="Testimonials" linkItem="/testimonials" />
           <NavItem titleItem="Contact" linkItem="/contact" />
         </ul>
-      </div>
-      <div className="navbar__burger w-[40px] h-[40px] bg-transparent">
-        <button>
-          <span className="burger-bar    "></span>
-        </button>
       </div>
     </nav>
 
