@@ -1,29 +1,39 @@
-// import React from 'react';
+import React, {useState} from 'react';
+// 3a j'importe le useState
 
+// 2b (navbar responsive)j'importe le menuItems
+import { MenuItems } from "./MenuItems";
 import NavItem from "./NavItem";
 
 export default function Navigation() {
-  
-  
+    // 3b je crée une constante en indiquant useState de cette manière
+    const [active,setActive] = useState(false)
+    const showMenu = () => {
+      setActive(!active)
+    }
   return (
-    
-    <nav className="navbar md:flex justify-between md:items-center px-4 py-2.5 ">
-      <div className=" ">
+    <div className="navbar flex lg:flex justify-between content-center lg:items-center px-4 py-2.5 ">
+      
+      <div className="flex justify-between">
         <a href="/about" className=" ">
-          <span className=" text-4xl font-black text-bluegeneraleinformation ">
+          <span className="text-xl lg:text-4xl font-black text-bluegeneraleinformation ">
             S.Bilella<span className="text-violetnav">.</span>CV
           </span>
         </a>
       </div>
-    
-      <div className="navbar__burger md:hidden absolute z-30 -mt-[40px] right-8 ">
         
-          <span className="burger-bar text-4xl font-black  text-bluegeneraleinformation hover:text-violetnav ">menu</span>
-        
-      </div>
+      <nav> 
+        {/* 4 Je crée mon burger ou menu et je lui rajoute onClick comme propriété */}
+        {/* 12 Je modifie mon bouton menu dans la className de la div */}
+        <div className='absolute right-1 z-10 lg:hidden'>
+          <span className="burger-bar text-xl font-black  text-red-500 hover:text-violetnav cursor-pointer" onClick={showMenu}>
+            menu
+          </span>
+        </div>
+      
 
-      <div className=" ">
-        <ul className=" absolute md:static md:flex md:items-center w-full  bg-white md:w-full ">
+        
+        <ul className=" hidden lg:flex lg:space-x-[1px] lg:static  lg:items-center w-full  bg-white md:w-full ">
           {/* <NavItem titleItem="Home" linkItem="/" /> */}
           <NavItem titleItem="About" linkItem="/about" />
           <NavItem titleItem="Skills" linkItem="/skills" />
@@ -32,8 +42,13 @@ export default function Navigation() {
           <NavItem titleItem="Testimonials" linkItem="/testimonials" />
           <NavItem titleItem="Contact" linkItem="/contact" />
         </ul>
-      </div>
-    </nav>
+        
+        {/* 2a Je pose ici MenuItems et voir 2b en haut */}
+        {/* 6 Dans MenuItems je rajoute showMenu voir en dessous et aller dans MenuItems 7  */}
+        {/* 8 mettre active voir en dessous et retourner au MenuItems 9 */}
+        <MenuItems showMenu={showMenu} active={active} /> 
+      </nav> 
+    </div>
 
     // <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
     //   <div className=" flex flex-wrap justify-between items-center mx-auto">
