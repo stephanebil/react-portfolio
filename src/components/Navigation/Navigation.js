@@ -13,7 +13,6 @@ export default function Navigation() {
     }
   return (
     <div className="navbar flex lg:flex justify-between content-center lg:items-center px-4 py-2.5 ">
-      
       <div className="flex justify-between">
         <a href="/about" className=" ">
           <span className="text-xl lg:text-4xl font-black text-bluegeneraleinformation ">
@@ -21,18 +20,19 @@ export default function Navigation() {
           </span>
         </a>
       </div>
-        
-      <nav> 
+
+      <nav>
         {/* 4 Je crée mon burger ou menu et je lui rajoute onClick comme propriété */}
         {/* 12 Je modifie mon bouton menu dans la className de la div */}
-        <div className='absolute right-1 z-10 lg:hidden'>
-          <span className="burger-bar text-xl font-black  text-red-500 hover:text-violetnav cursor-pointer" onClick={showMenu}>
+        <div className="absolute right-1 z-10 lg:hidden">
+          <span
+            className="burger-bar text-xl font-black  text-bluegeneraleinformation hover:text-violetnav cursor-pointer"
+            onClick={showMenu}
+          >
             menu
           </span>
         </div>
-      
 
-        
         <ul className=" hidden lg:flex lg:space-x-[1px] lg:static  lg:items-center w-full  bg-white md:w-full ">
           {/* <NavItem titleItem="Home" linkItem="/" /> */}
           <NavItem titleItem="About" linkItem="/about" />
@@ -42,12 +42,12 @@ export default function Navigation() {
           <NavItem titleItem="Testimonials" linkItem="/testimonials" />
           <NavItem titleItem="Contact" linkItem="/contact" />
         </ul>
-        
+
         {/* 2a Je pose ici MenuItems et voir 2b en haut */}
         {/* 6 Dans MenuItems je rajoute showMenu voir en dessous et aller dans MenuItems 7  */}
         {/* 8 mettre active voir en dessous et retourner au MenuItems 9 */}
-        <MenuItems showMenu={showMenu} active={active} /> 
-      </nav> 
+        <MenuItems showMenu={showMenu} active={active} />
+      </nav>
     </div>
 
     // <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
